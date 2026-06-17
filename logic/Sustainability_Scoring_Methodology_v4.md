@@ -1,6 +1,5 @@
 # Sustainability Scoring Methodology — v4
 
-\---
 
 ## 1\. Purpose and honest framing
 
@@ -15,7 +14,6 @@ measure them. We score the factors that open data *can* support and that the
 sustainable-events literature treats as material. Stating this boundary is what
 separates a defensible indicator from greenwashing.
 
-\---
 
 ## 2\. The two-axis model (triple bottom line)
 
@@ -29,7 +27,6 @@ newcomer to actually participate.
 
 A separate, non-scored **🌱 flag** surfaces organizer-advertised eco practices.
 
-\---
 
 ## 3\. Final component weights
 
@@ -46,7 +43,6 @@ Confidence labels: **Measured** = read directly from a field; **Derived** =
 computed from data (geographic distance); **Self-reported** = an organizer
 claim, shown as a claim, never as verified fact.
 
-\---
 
 ## 4\. Why this split — the reasoning
 
@@ -87,7 +83,6 @@ is *equity-oriented*, not "less inclusive." It is exposed as a
 to carry a weighted axis. A 🌱 flag keeps the information without giving weight
 to a data-poor signal.
 
-\---
 
 ## 5\. How each component is computed
 
@@ -120,8 +115,6 @@ registration required → 7.5 (0.3); unknown → 12.5.
 **Free admission (15).** `cout` = `Gratuit`/free → 15; ≤ $10 → 9 (0.6);
 ticketed → 3 (0.2); unknown → 7.5.
 
-\---
-
 ## 6\. Self-declared eco — the 🌱 flag
 
 Scanned from `description` (and, optionally, the richer body text behind
@@ -143,7 +136,6 @@ community events, cache results, and stay within the same official source — do
 and breaks source consistency. The 20-festival JSON layer already contains rich
 text and is a good place to apply this.
 
-\---
 
 ## 7\. Badge tiers
 
@@ -157,7 +149,6 @@ Every badge ships with a per-component **breakdown** and short **reasons** (e.g.
 *"Metro 280 m · Walk-in · Free"*), plus the 🌱 flag when present, so the score is
 explainable rather than a black box.
 
-\---
 
 ## 8\. Worked examples
 
@@ -171,7 +162,6 @@ The spread (24.5 → 100) shows the model differentiates rather than rating
 everything "green." A 🌱 flag would attach to the storytime if its description
 mentioned, e.g., "zero waste."
 
-\---
 
 ## 9\. Validation and calibration guardrails
 
@@ -197,7 +187,6 @@ component if a real residential-density layer is added; take its weight from
 transit. A hand-set borough index is not used because it would be an
 unjustified proxy.
 
-\---
 
 ## 10\. Data handling notes
 
@@ -218,7 +207,6 @@ upcoming before scoring.
 * **Administrative events.** Council meetings, public consultations, etc. are
 filtered out upstream and not scored.
 
-\---
 
 ## 11\. Handoff: output schema for the website
 
@@ -235,7 +223,6 @@ filtered out upstream and not scored.
 `badge` and `eco\_flag` are separate so the UI can show the flag without it
 affecting the score.
 
-\---
 
 ## 12\. Data sources and access
 
@@ -259,7 +246,6 @@ the STM logo/brand.
 a small physical-accessibility component on the social axis — left out of v3
 until the stop-to-event matching is validated.
 
-\---
 
 ## 13\. Framework anchoring — official wording
 
@@ -297,7 +283,7 @@ which it does not (procurement, waste, catering).
 |Free admission|11.2 (affordable); 11.7|Social inclusion|
 |🌱 Eco practices (flag)|13|Organizer commitment|
 
-## 14\. References (to cite in the report)
+## 14\. References
 
 * United Nations — Sustainable Development Goals: **SDG 11** (sdgs.un.org/goals/goal11),
 **SDG 13** (sdgs.un.org/goals/goal13). Quote targets 11.2 and 11.7 from the official text.
