@@ -5,7 +5,7 @@ A free, bilingual (EN/FR), borough-aware community events discovery platform for
 ## Live data sources
 
 - **Primary**: [Ville de Montréal Open Data Portal](https://donnees.montreal.ca) — daily-refreshed CSV/API of community events
-- **Supplementary**: hand-curated `data/festivals.json` for ~20 major annual festivals (Jazz Fest, MURAL, Francofolies, etc.) that don't appear in the city API
+- **Supplementary**: hand-curated `data/festivals.json` for 12 major annual festivals (Jazz Fest, MURAL, Francofolies, etc.) that don't appear in the city API
 
 ## Architecture
 
